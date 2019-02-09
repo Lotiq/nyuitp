@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+button.modeButton {
+  background-color: #79A1D5;
+  cursor:pointer;
+  -moz-border-radius: 18px;
+  -webkit-border-radius: 18px;
+  border: 1px solid #ffffff;
+  font-family: Arial;
+  font-size: 24px;
+  width: 200px;
+  height: 100px;
+  border: none;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+button.modeButton:hover{
+  background-color: #79A1D5;
+  transition: 0.5s;
+	transition-delay: 0s;
+  opacity: 1;
+}
+
+slider.manualSlider {
+
+  width: 200px;
+  background: #d3d3d3;
+  height: 30px;
+  opacity: 0.3;
+  transition: opacity 1s;
+
+}
+
+slider.manualSlider:hover{
+
+}
